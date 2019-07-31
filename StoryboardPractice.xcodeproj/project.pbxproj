@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0219D06420BFE54800716201 /* SliderConstraintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0219D06320BFE54800716201 /* SliderConstraintViewController.swift */; };
 		027166A21F827D6D008373FD /* FeaturesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027166A11F827D6D008373FD /* FeaturesTableViewController.swift */; };
 		02A037F21F827943009EE8AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A037F11F827943009EE8AB /* AppDelegate.swift */; };
 		02A037F41F827943009EE8AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A037F31F827943009EE8AB /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0219D06320BFE54800716201 /* SliderConstraintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderConstraintViewController.swift; sourceTree = "<group>"; };
 		027166A11F827D6D008373FD /* FeaturesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturesTableViewController.swift; sourceTree = "<group>"; };
 		02A037EE1F827943009EE8AB /* StoryboardPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A037F11F827943009EE8AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				02A037F11F827943009EE8AB /* AppDelegate.swift */,
 				02A037F31F827943009EE8AB /* ViewController.swift */,
 				027166A11F827D6D008373FD /* FeaturesTableViewController.swift */,
+				0219D06320BFE54800716201 /* SliderConstraintViewController.swift */,
 				02A037F51F827943009EE8AB /* Main.storyboard */,
 				02A037F81F827943009EE8AB /* Assets.xcassets */,
 				02A037FA1F827943009EE8AB /* LaunchScreen.storyboard */,
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					02A037ED1F827943009EE8AB = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UE5YPS7XBK;
 						ProvisioningStyle = Automatic;
 					};
 					02A038011F827944009EE8AB = {
@@ -215,6 +219,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -264,6 +269,7 @@
 			files = (
 				02A037F41F827943009EE8AB /* ViewController.swift in Sources */,
 				027166A21F827D6D008373FD /* FeaturesTableViewController.swift in Sources */,
+				0219D06420BFE54800716201 /* SliderConstraintViewController.swift in Sources */,
 				02A037F21F827943009EE8AB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,11 +424,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UE5YPS7XBK;
 				INFOPLIST_FILE = StoryboardPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.practice.StoryboardPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -430,11 +440,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UE5YPS7XBK;
 				INFOPLIST_FILE = StoryboardPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.practice.StoryboardPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
